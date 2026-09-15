@@ -1,9 +1,9 @@
-import ComingSoonVersion1 from '@/components/ComingSoonVersion1/ComingSoonVersion1';
+import StandardComingSoon from '@/components/StandardComingSoon/StandardComingSoon';
 
 export default function Home() {
   return (
     <>
-      <ComingSoonVersion1 />
+      <StandardComingSoon />
     </>
   );
 }

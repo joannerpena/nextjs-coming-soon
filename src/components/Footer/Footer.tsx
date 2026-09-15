@@ -1,5 +1,5 @@
-import React from "react";
-import data from "../../../data/data";
+import React from 'react';
+import data from '../../../data/data';
 
 function Footer() {
   const { copyrightText, socialIcons, socialIconsHeading } = data;
@@ -10,7 +10,6 @@ function Footer() {
       <footer className="text-slate-500 text-center">
         <div className="my-4 text-center">
           <ul className="flex flex-wrap lg:flex justify-center ">
-            <li className="px-2"> {socialIconsHeading} </li>
             {socialIcons.map((social, index) => (
               <li
                 key={index}
